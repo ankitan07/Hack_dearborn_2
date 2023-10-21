@@ -13,7 +13,7 @@
 * **SNP (Single Nucleotide Polymorphism):**  genetic variation in which a single nucleotide (A, T, C, or G) at a specific position in the genome differs among individuals or populations. Most common type of genetic variation and can be associated with various traits, diseases, and individual differences.These genetic variations can affect three key processes: drug metabolism, drug targets, and disease pathways.
 
 
-## Variability in drug response among racial and ethnic groups is influenced by a combination 
+## Factors effecting variability in drug response among racial and ethnic groups 
 
 * **Genetic Factors:** Can impact how drugs are absorbed, distributed, metabolized, and excreted within the body, as well as how they interact with receptors. (pharmacogenetics/pharmacogenetics)
 
