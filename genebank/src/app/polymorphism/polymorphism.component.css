@@ -1,0 +1,24 @@
+.container{
+    height: 120vh;
+    background-size: cover;
+}
+
+h1{
+    background-color: rgb(62, 59, 59);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{  
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.poly-img{
+    padding: 14px;
+    height: 380px;
+    width: 500px;
+}

@@ -9,6 +9,9 @@ import { NavbarComponent } from './homepage/navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './homepage/navbar/login/login.component';
+import { FactorsComponent } from './factors/factors.component';
+import { PolymorphismComponent } from './polymorphism/polymorphism.component';
+import { MedicationComponent } from './medication/medication.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { LoginComponent } from './homepage/navbar/login/login.component';
     LoginComponent,
     FormsComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    FactorsComponent,
+    PolymorphismComponent,
+    MedicationComponent
   ],
   imports: [
     BrowserModule,

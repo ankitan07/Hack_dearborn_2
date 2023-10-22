@@ -1,4 +1,7 @@
 
+<div> 
+  <h1 class="generateMedicine">Generate Medicine</h1>
+
 <div class="form">
     <h2 class="form-heading"> Candidate Profile </h2>
   
@@ -58,8 +61,30 @@
         <option value="Cardiovascular">Cardiovascular</option>
         <option value="Covid">Covid</option>
     </select>
-    <button class="btn btn-success">Submit</button>
+    <button class="btn btn-success">Submit
+    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    </button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Medicine</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>No CYP2C9  2 and 3  and no VKORC1 - c.-1639G>A detected <br><br> Drug recommended: Warfarin's <br><br>  Dosage recommended: 3-5 mg </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </button>
   </form>
+</div>
 </div>
 
 
