@@ -64,3 +64,7 @@ img{
     border-radius: 50%;
     position: relative;
 }
+
+.input.ng-invalid.ng-touched{
+    border:red 2px solid;
+}
