@@ -8,7 +8,7 @@ import { FormControl,FormGroup,Validators } from '@angular/forms';
 })
 export class FormsComponent implements OnInit{
    reactiveForm : FormGroup;
-   
+
    ngOnInit(): void {
      this.reactiveForm = new FormGroup({
       firstname: new FormControl(null, Validators.required),
@@ -22,8 +22,6 @@ export class FormsComponent implements OnInit{
       smoking : new FormControl(null),
       drugs:new FormControl(null)
      });
-
-     
    }
    onSubmit(){
      let candidateDetails: JSON = this.reactiveForm.value; 
@@ -60,5 +58,6 @@ export class FormsComponent implements OnInit{
       "Output": "Details: % of CYP2C9  2 and 3  = 13.12% , 7.68% VKORC1 - c.-1639G>A is present Drug recommended: Warfarin's Dosage recommended: 4-7 mg", "% CYP2C9  2 ": "13.12% , 7.68%", "% CYP2C9  2 .1": 13.12, "% CYP2C9   3 ": 7.68}, 
 
     }
+
 
 }
