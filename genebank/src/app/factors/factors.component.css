@@ -1,0 +1,18 @@
+.container{
+    height: 80vh;
+    width: 100vw;
+}
+
+h1{
+    margin: 10px;
+    padding: 12px;
+    background-color: rgba(21, 21, 21, 0.841);
+    color: white;
+}
+
+strong{
+    font-size: 18px;
+}
+button{
+    font-size: 20px;
+}

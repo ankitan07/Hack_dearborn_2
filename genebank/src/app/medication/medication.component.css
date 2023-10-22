@@ -1,0 +1,23 @@
+.container{
+    height: 100vh;
+    background-size: cover;
+}
+.medication{
+    background-color: rgb(62, 59, 59);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    background-color: rgb(62, 59, 59);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{  
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
