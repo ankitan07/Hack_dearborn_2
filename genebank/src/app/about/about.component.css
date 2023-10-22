@@ -1,3 +1,113 @@
 .container{
-    height: 400px;
+height: 100vh;
+width: cover;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assets/images/DNA_Featured.jpg);
+background-size: cover;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+}
+h5{    
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p{
+    color: #fff;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+button{
+    margin: 10px;
+
+}
+
+button :hover{
+    background-color: #cec4c4;
+
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+}
+
+.card1{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-image: url(/assets/images/istockphoto-1300036753-612x612.jpg);
+background-position: center;
+background-size: cover;
+}
+.card2{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-image: url(/assets/images/360_F_35778960_k1JlqVBpFrrXhz4sWj8zD18JwRsuezTF.jpg);
+background-position: center;
+background-size: cover;
+}
+.card3{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-image: url(/assets/images/201209_racial_disparity_og.jpg);
+background-position: center;
+background-size: cover;
+}
+.card4{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-image: url(/assets/images/istockphoto-184880947-612x612.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.card:hover{
+    transform: translateY(-10px);
 }

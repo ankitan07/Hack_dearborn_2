@@ -1,5 +1,5 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 Login/Signup  </button>
   
   <!-- Modal -->
@@ -22,15 +22,15 @@ Login/Signup  </button>
                                     <form  [formGroup]="loginForm" (ngSubmit)="onLogin()">
                                        <div class="form-group pt-3">
                                         <div class="input-field">
-                                            <span class="fa fa-user p-2"></span>
+                                            <span class="fa fa-user p-2 color:black;"></span>
                                             <input type="text" placeholder="E-mail" formControlName="email">
                                         </div>
                                        </div> 
                                        <div class="form-group pt-3">
                                         <div class="input-field">
-                                            <span class="fa fa-lock p-2"></span>
+                                            <span class="fa fa-lock p-2 color:black;"></span>
                                             <input [type]="type" placeholder="Password" formControlName="password">
-                                            <span (click)="showPass()"   class="fa {{eyeIcon}}"></span>
+                                            <span (click)="showPass()" class="fa {{eyeIcon}}"></span>
                                         </div>
                                        </div> 
                                        <div class="form-inline fr mt-4">
